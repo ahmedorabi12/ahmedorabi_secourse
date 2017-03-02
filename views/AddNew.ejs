@@ -1,0 +1,17 @@
+<% include partials/head %>
+  <body>
+    <div class="col-sm-8 col-sm-offset-2">
+    <form  action="/add" method="post" enctype="multipart/form-data">
+      <label>Description</label>
+      <input  name="description">
+      <br>
+      <label>link to repo</label>
+      <input  name="link" value="">
+      <br>
+      <label>Picture</label>
+      <input name="pic" type="file" />
+      <br>
+     <button  name="button">add</button>
+    </form>
+  </body>
+</html>
